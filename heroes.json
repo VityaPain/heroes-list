@@ -1,0 +1,49 @@
+{
+  "heroes": [
+    {
+      "id": 1,
+      "name": "Малыш камень",
+      "description": "Пришел из гор",
+      "element": "earth"
+    },
+    {
+      "id": "09230518-311c-4584-b5f5-a2afccfa14dd",
+      "name": "Витя Боль",
+      "description": "Все могу нафиг",
+      "element": "wind"
+    },
+    {
+      "id": "abb2f597-fe63-4890-9265-ced4af3af866",
+      "name": "Жопер",
+      "description": "Вопер биг хит",
+      "element": "fire"
+    }
+  ],
+  "filters": [
+    {
+      "name": "all",
+      "className": "btn-outline-dark",
+      "text": "Все"
+    },
+    {
+      "name": "fire",
+      "className": "btn-danger",
+      "text": "Огонь"
+    },
+    {
+      "name": "water",
+      "className": "btn-primary",
+      "text": "Вода"
+    },
+    {
+      "name": "wind",
+      "className": "btn-success",
+      "text": "Ветер"
+    },
+    {
+      "name": "earth",
+      "className": "btn-secondary",
+      "text": "Земля"
+    }
+  ]
+}
