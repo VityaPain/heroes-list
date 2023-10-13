@@ -7,8 +7,8 @@
 
 ## Libraries and technologies:
  - react (functional component, react-redux)
- - [primitive db (json file)] (https://www.npmjs.com/package/json-server)
- - [concurrently] (https://www.npmjs.com/package/concurrently)
- - [formik with yup] (https://www.npmjs.com/package/formik)
- - [uuid] (https://www.npmjs.com/package/uuid)
- - [classnames] (https://www.npmjs.com/package/classnames)
+ - [primitive db (json file)](https://www.npmjs.com/package/json-server)
+ - [concurrently](https://www.npmjs.com/package/concurrently)
+ - [formik with yup](https://www.npmjs.com/package/formik)
+ - [uuid](https://www.npmjs.com/package/uuid)
+ - [classnames](https://www.npmjs.com/package/classnames)
