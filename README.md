@@ -1,11 +1,11 @@
-#This is test project with hero admin panel!
+# This is test project with hero admin panel!
 
-##What was implemented:
+## What was implemented:
  - add new hero
  - delete hero
  - filtering by type of element
 
-##Libraries and technologies:
+## Libraries and technologies:
  - react (functional component, react-redux)
  - [primitive db (json file)] (https://www.npmjs.com/package/json-server)
  - [concurrently] (https://www.npmjs.com/package/concurrently)
