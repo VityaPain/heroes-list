@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/heroes-list/static/css/main.ee55d48c.css",
-    "main.js": "/heroes-list/static/js/main.ab6860b9.js",
+    "main.js": "/heroes-list/static/js/main.ec81dec1.js",
     "static/media/hero_bg.jpg": "/heroes-list/static/media/hero_bg.0540b794b0424b67d780.jpg",
     "index.html": "/heroes-list/index.html",
     "main.ee55d48c.css.map": "/heroes-list/static/css/main.ee55d48c.css.map",
-    "main.ab6860b9.js.map": "/heroes-list/static/js/main.ab6860b9.js.map"
+    "main.ec81dec1.js.map": "/heroes-list/static/js/main.ec81dec1.js.map"
   },
   "entrypoints": [
     "static/css/main.ee55d48c.css",
-    "static/js/main.ab6860b9.js"
+    "static/js/main.ec81dec1.js"
   ]
 }
