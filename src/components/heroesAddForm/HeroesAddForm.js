@@ -34,7 +34,9 @@ const HeroesAddForm = () => {
             element: element
         }
 
-        request("http://localhost:3001/heroes", "POST", JSON.stringify(newHero))
+        // request("http://localhost:3001/heroes", "POST", JSON.stringify(newHero))
+        request("https://cdn.jsdelivr.net/gh/VityaPain/heroes-list@main/filters.json", "POST", JSON.stringify(newHero))
+        // request("https://cors-anywhere.herokuapp.com/https://cdn.jsdelivr.net/gh/VityaPain/heroes-list@main/heroes.json", "POST", JSON.stringify(newHero))
             .then(dispatch(addHero(newHero)))
                 .then(resetForm())
     }

@@ -2,6 +2,7 @@
   "name": "hero_admin_panel",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://vityapain.github.io/heroes-list/",
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.7",
     "@testing-library/jest-dom": "^6.1.3",
@@ -11,6 +12,7 @@
     "classnames": "^2.3.2",
     "concurrently": "^8.2.1",
     "formik": "^2.4.5",
+    "gh-pages": "^6.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-redux": "^8.1.3",
@@ -23,7 +25,9 @@
     "start": "concurrently \"react-scripts --openssl-legacy-provider start\" \"npx json-server heroes.json --port 3001\"",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build"
   },
   "eslintConfig": {
     "extends": "react-app"

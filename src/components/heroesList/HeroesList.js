@@ -18,7 +18,8 @@ const HeroesList = () => {
 
     useEffect(() => {
         dispatch(heroesFetching());
-        request("http://localhost:3001/heroes")
+        // request("http://localhost:3001/heroes")
+        request("https://cdn.jsdelivr.net/gh/VityaPain/heroes-list@main/heroes.json")
             .then(data => dispatch(heroesFetched(data)))
             .catch(() => dispatch(heroesFetchingError()))
 

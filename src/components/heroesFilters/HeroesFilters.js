@@ -21,7 +21,9 @@ const HeroesFilters = () => {
 
     useEffect(() => {
         dispatch(filtersFetching());
-        request("http://localhost:3001/filters")
+        // request("http://localhost:3001/filters")
+        request("https://cdn.jsdelivr.net/gh/VityaPain/heroes-list@main/filters.json")
+        // request("https://cors-anywhere.herokuapp.com/https://cdn.jsdelivr.net/gh/VityaPain/heroes-list@main/heroes.json")
             .then(data => dispatch(filtersFetched(data)))
             .catch(() => dispatch(filtersFetchingError()))
     }, [])
